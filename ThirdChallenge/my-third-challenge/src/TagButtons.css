@@ -1,0 +1,12 @@
+.Tagbutton{
+    background-color: purple;
+    padding:20px;
+    margin:25px 20px;
+    transition: all 0.3s;
+    border-radius: 15px;
+}
+
+.Tagbutton:hover{
+    background-color: plum;
+    cursor:pointer;
+}

@@ -8,9 +8,16 @@ export default function Post({ postName = "no title", postBody = "no body" }) {
         margin: "25px",
       }}
     >
-      <h2>{postName}</h2>
-      <hr />
-      <p>{postBody}</p>
+      <h2>
+        {postName}
+      </h2>
+
+      <hr/>
+      
+      <p>
+        {postBody}
+      </p>
+    
     </div>
   );
 }

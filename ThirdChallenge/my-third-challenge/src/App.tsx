@@ -11,8 +11,10 @@ function App() {
 
   const posts=
   [
-    {id:1,postName:"أكاديمية ترميز",postBody:" أكاديمية متخصصة لتعليم البرمجة بمختلف لغاتها وتقنياتها"},
+    {id:1,postName:"أكاديمية ترميز"                ,postBody:" أكاديمية متخصصة لتعليم البرمجة بمختلف لغاتها وتقنياتها"},
+
     {id:2,postName:"this is the hello world article",postBody:"this is the hello world article"},
+    
     {id:3,postName:"this is the hello world article",postBody:"this is the body of post 3"},
     
   ]
@@ -36,8 +38,8 @@ function App() {
                 <AppSideMenu/>
             </div>
             </div>
-     </div>
-     </>
+      </div>
+    </>
             
 
   )

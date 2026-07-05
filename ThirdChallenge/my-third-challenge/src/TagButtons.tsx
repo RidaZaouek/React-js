@@ -1,9 +1,11 @@
 import "./TagButtons.css";
-export default function TagButton({ title, children }) {
+const TagButton = ({ title, children }) => {
   return (
-    <button className="tagButton">
+    <button className="Tagbutton">
       {title}
       {children}
     </button>
   );
 }
+
+export default TagButton

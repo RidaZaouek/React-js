@@ -4,6 +4,9 @@
 // import Posts from './Posts'
 // import SideMenu from './SideMenu'
 
+import Header from "./Header"
+import Person from "./Person"
+
 // function App() {
 //   return (
 //     <>
@@ -54,8 +57,15 @@ const App = () => {
       <Header/>
       {/* POST CONTAINER */}
       <div style={{display:"flex",justifyContent:"center"}}>
-        <div style={{width:"60%",display:"flex",justifyContent:"center"}}>
+        <div style={{width:"70%",display:"flex",justifyContent:"center"}}>
 
+          <Person sayhello="Hello" name="Rida" question="How are you?">
+
+            <p>My name's Rida.</p>
+            <p>I'm fine and you?</p>
+
+          </Person>
+          
         </div>
 
       </div>

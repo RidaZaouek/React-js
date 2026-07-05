@@ -1,7 +1,7 @@
 
 
-const Person = ({sayhello,name,question}) => {
-    console.log("THE PROPS ARE : "+sayhello,name,question);
+const Person = ({sayhello,name,question,children}) => {
+    console.log("THE PROPS ARE : "+sayhello,name,question,children);
   return (
         <div style={{margin:"25px",color:"black",background:"red"}}>
             <h1>
@@ -13,6 +13,10 @@ const Person = ({sayhello,name,question}) => {
             <h3>
                 {question}
             </h3>
+            <div>
+                {children}
+            </div>
+                
         </div>
     
   )
